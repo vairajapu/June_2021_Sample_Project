@@ -31,6 +31,8 @@ public static WebDriver driver;
 		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("vairajapu@gmail.com");
 		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("vai2017raj");
 		driver.findElement(By.name("login")).click();
+		System.out.println("Login into facebook account");
+		
 		}
 	
 	@AfterTest
